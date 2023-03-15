@@ -8,3 +8,8 @@ module.exports = {
     port: process.env.DB_PORT,
     dialect: process.env.DIALECT
 }
+
+module.exports = {
+    dialect: 'sqlite',
+    storage: './database.sqlite'
+  }
